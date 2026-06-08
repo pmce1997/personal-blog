@@ -3,6 +3,8 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { Image } from 'astro:images';
+import me from '../assets/me.jpeg';
 ---
 
 <!doctype html>
@@ -14,6 +16,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<Header />
 		<main>
 			<h1>👋 Hey there, I'm Peter.</h1>
+
+			![Photo of me at Zhanjiajie](me.jpeg)
+
 			<p>
 				Irish, curious, and usually planning the next adventure.
 			</p>
